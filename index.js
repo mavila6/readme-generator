@@ -70,5 +70,71 @@ const promptUser = () => {
                 }
             }
         },
+        {
+            type: "input",
+            name: "installation",
+            message: "Please enter the necessary command used to install dependencies. (Required)",
+            validate: installationInput => {
+                if (installationInput) {
+                return true;
+                } else {
+                console.log('Must enter a value.');
+                return false;
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "test",
+            message: "Please enter the necessary command used to run tests. || [NONE] (Required)",
+            validate: testInput => {
+                if (testInput) {
+                return true;
+                } else {
+                console.log('Must enter a value.');
+                return false;
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "usage",
+            message: "What should the user know about using the repository? (Required)",
+            validate: usageInput => {
+                if (usageInput) {
+                return true;
+                } else {
+                console.log('Must enter a short description.');
+                return false;
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "contribute",
+            message: "What should the user know about contributing to the repository? (Required)",
+            validate: contributeInput => {
+                if (contributeInput) {
+                return true;
+                } else {
+                console.log('Must enter a short description.');
+                return false;
+                }
+            }
+        },
+        {
+            type: "list",
+            name: "license",
+            message: "What license does your project have? (Required)",
+            choices: ['MIT','GPL','APACHE','BSD','NONE'],
+            validate: licenseList => {
+                if (licenseList) {
+                return true;
+                } else {
+                console.log('Must choose an option.');
+                return false;
+                }
+            }
+        }
     ]);
 };
