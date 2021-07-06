@@ -2,8 +2,6 @@
 
 ## Description
 
-![License](https://img.shields.io/badge/Lincense-MIT-blue.svg "License Badge")
-
 A command-line application that uses the Inquirer package to prompt the user and dynamically generate a professional README markdown file from a users input.
 
 ## Table of Contents
@@ -27,6 +25,7 @@ Run 'node index' in the command line to initiate the application. Answer the fol
 
 ### Walkthrough
 
+[Walkthrough Video](https://drive.google.com/file/d/1F47rj7XeOavGKrfrV7cIde-MEvIlS1ui/view)
 
 ### Credits
 

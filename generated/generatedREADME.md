@@ -34,7 +34,7 @@ MIT
 
 ### Contributing
 
-No Contributions at this time.
+No contributions at this time.
 
 ### Tests
 
@@ -49,3 +49,4 @@ If you have any questions feel free to take a look at my [GitHub](https://github
 ![Picture](https://github.com/mavila6.png?size=100)
 
 &copy; 2021 Marco Avila
+
