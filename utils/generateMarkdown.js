@@ -30,9 +30,9 @@ module.exports = response => {
 
     ### License: 
     
-    This project is licensed under:
+    Click the following link for more information about the license:
     
-    ${response.license}
+    - [License Info](https://opensource.org/licenses/${response.license})
 
     ### Contributing: 
 

@@ -138,3 +138,14 @@ const promptUser = () => {
         }
     ]);
 };
+
+promptUser()
+    .then(readmedata => {
+        const pageMD = generateMd(readmedata);
+
+        fs.writeFile('./generated/generatedREADME.md', pageMD, err => {
+        if (err) throw new Error(err);
+        
+        console.log('README has been created! Checkout the generated directory to see it.');
+        });
+    });
