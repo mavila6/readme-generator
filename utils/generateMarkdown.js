@@ -48,7 +48,7 @@ To test, run the following code in the console:
 
 ### Questions
 
-If you have any questions feel free to take a look at my [GitHub](https://github.com/${response.username}) or contact me at ${response.email}
+If you have any questions feel free to take a look at my [GitHub](https://github.com/${response.github}) or contact me at ${response.email}
 
 ![Picture](https://github.com/${response.github}.png?size=100)
 
