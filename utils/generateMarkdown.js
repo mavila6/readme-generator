@@ -1,4 +1,6 @@
+//used module.exports to send response function containing to README template to the index.js file//
 module.exports = response => {
+//the function returns template for the markdown file using template literals to input the user responses into the template//
 return `
 # ${response.title}
 

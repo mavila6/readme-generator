@@ -28,7 +28,6 @@ Run 'node index' in the command line to initiate the application. Answer the fol
 ### Walkthrough
 
 
-
 ### Credits
 
 Used Josh Glugatch's youtube walkthrough for reference: [Youtube](https://youtu.be/LRUqN-3SrFA)

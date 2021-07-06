@@ -1,9 +1,10 @@
-//variables created to require nppm node modules and additional js page//
+//variables created to require npm node modules and additional js page//
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMd = require('./utils/generateMarkdown');
-
+//function created to prompt the user with Inquirer package//
 const promptUser = () => {
+    //used inquirer input and list prompts to gather data for the markdown file and used validate to make sure input fields are not empty//
     return inquirer.prompt([
         {
             type: "input",
@@ -138,7 +139,7 @@ const promptUser = () => {
         }
     ]);
 };
-
+//function call to prompt user which then runs a callback function to generate a new markdown file using the user responses to the prompts//
 promptUser()
     .then(readmedata => {
         const pageMD = generateMd(readmedata);
