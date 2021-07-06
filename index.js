@@ -146,6 +146,6 @@ promptUser()
         fs.writeFile('./generated/generatedREADME.md', pageMD, err => {
         if (err) throw new Error(err);
         
-        console.log('README has been created! Checkout the generated directory to see it.');
+        console.log('README has been created! Checkout the generated directory to see the file.');
         });
     });

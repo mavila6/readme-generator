@@ -1,55 +1,56 @@
 module.exports = response => {
-    return `
-    # ${response.title}
+return `
+# ${response.title}
 
-    ## Description:
-    
-    ![License](https://img.shields.io/badge/Lincense-${response.license}-red.svg "License Badge")
-    
-    ${response.description}
+## Description
 
-    ## Table of Contents
+![License](https://img.shields.io/badge/Lincense-${response.license}-blue.svg "License Badge")
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+${response.description}
 
-    
-    ### Installation:
-    
-    To install necessary dependencies, run the following code in the console:
+## Table of Contents
 
-    \`\`\`${response.installation}\`\`\`
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-    ### Usage:
 
-    ${response.usage}
+### Installation
 
-    ### License: 
-    
-    Click the following link for more information about the license:
-    
-    - [License Info](https://opensource.org/licenses/${response.license})
+To install necessary dependencies, run the following code in the console:
 
-    ### Contributing: 
+\`\`\`${response.installation}\`\`\`
 
-    ${response.contribute}
+### Usage
 
-    ### Tests: 
-    
-    To test, run the following code in the console:
+${response.usage}
 
-    \`\`\`${response.test}\`\`\`
+### License
 
-    ### Questions:
+Click the following link for more information about the license:
 
-    If you have any questions feel free to take a look at my [GitHub](https://github.com/${response.username}) or contact me at ${response.email}
+[License Info](https://opensource.org/licenses/${response.license})
 
-    ![Picture](https://github.com/${response.github}.png?size=75)
+### Contributing
 
-    &copy; ${new Date().getFullYear()} ${response.author}
-    `
-}
+${response.contribute}
+
+### Tests
+
+To test, run the following code in the console:
+
+\`\`\`${response.test}\`\`\`
+
+### Questions
+
+If you have any questions feel free to take a look at my [GitHub](https://github.com/${response.username}) or contact me at ${response.email}
+
+![Picture](https://github.com/${response.github}.png?size=100)
+
+&copy; ${new Date().getFullYear()} ${response.author}
+
+`
+};
