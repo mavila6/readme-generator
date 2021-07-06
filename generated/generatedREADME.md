@@ -5,7 +5,7 @@
 
 ![License](https://img.shields.io/badge/Lincense-MIT-blue.svg "License Badge")
 
-A command-line application that dynamically generates a professional README.me file from a users input using the Inquirer package.
+Lorem Ipsum
 
 ## Table of Contents
 
@@ -16,7 +16,6 @@ A command-line application that dynamically generates a professional README.me f
 - [Tests](#tests)
 - [Questions](#questions)
 
-
 ### Installation
 
 To install necessary dependencies, run the following code in the console:
@@ -25,17 +24,17 @@ To install necessary dependencies, run the following code in the console:
 
 ### Usage
 
-Run 'npm install' in the command line to initiate the application. Answer the following prompts. The application will then take the user input to override any content in the generatedREADME.md file. Make sure to move any changes you want to save to a different location.
+Lorem Ipsum
 
 ### License
 
-Click the following link for more information about the license:
+This project is licensed under:
 
-- [License Info](https://opensource.org/licenses/MIT)
+MIT
 
 ### Contributing
 
-No contributions at this time.
+No Contributions at this time.
 
 ### Tests
 
@@ -45,8 +44,8 @@ To test, run the following code in the console:
 
 ### Questions
 
-If you have any questions feel free to take a look at my [GitHub](https://github.com/undefined) or contact me at mavila6@email.arizona.edu
+If you have any questions feel free to take a look at my [GitHub](https://github.com/mavila6) or contact me at mavila6@email.arizona.edu
 
-![Picture](https://github.com/mavila6.png?size=75)
+![Picture](https://github.com/mavila6.png?size=100)
 
 &copy; 2021 Marco Avila

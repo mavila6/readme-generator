@@ -19,7 +19,6 @@ ${response.description}
 - [Tests](#tests)
 - [Questions](#questions)
 
-
 ### Installation
 
 To install necessary dependencies, run the following code in the console:
