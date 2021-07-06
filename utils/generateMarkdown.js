@@ -30,9 +30,9 @@ ${response.usage}
 
 ### License
 
-Click the following link for more information about the license:
+This project is licensed under:
 
-[License Info](https://opensource.org/licenses/${response.license})
+${response.license}
 
 ### Contributing
 
