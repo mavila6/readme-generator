@@ -6,12 +6,13 @@ A command-line application that uses the Inquirer package to prompt the user and
 
 ## Table of Contents
 
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
+- [Walkthrough](#walkthrough)
+- [Credits](#credits)
 - [Questions](#questions)
+- [Author](#author)
 
 ### Installation
 
@@ -36,5 +37,7 @@ Used Josh Glugatch's youtube walkthrough for reference: [Youtube](https://youtu.
 If you have any questions feel free to take a look at my [GitHub](https://github.com/undefined) or contact me at mavila6@email.arizona.edu
 
 ![Picture](https://github.com/mavila6.png?size=100)
+
+### Author
 
 &copy; 2021 Marco Avila
