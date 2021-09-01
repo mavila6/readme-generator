@@ -36,8 +36,8 @@ Used Josh Glugatch's youtube walkthrough for reference: [Youtube](https://youtu.
 
 If you have any questions feel free to take a look at my [GitHub](https://github.com/undefined) or contact me at mavila6@email.arizona.edu
 
-![Picture](https://github.com/mavila6.png?size=100)
-
 ### Author
+
+![Picture](https://github.com/mavila6.png?size=100)
 
 &copy; 2021 Marco Avila
