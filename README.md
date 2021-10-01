@@ -28,10 +28,6 @@ Run 'node index' in the command line to initiate the application. Answer the fol
 
 [Walkthrough Video](https://drive.google.com/file/d/1F47rj7XeOavGKrfrV7cIde-MEvIlS1ui/view)
 
-### Credits
-
-Used Josh Glugatch's youtube walkthrough for reference: [Youtube](https://youtu.be/LRUqN-3SrFA)
-
 ### Questions
 
 If you have any questions feel free to take a look at my [GitHub](https://github.com/undefined) or contact me at mavila6@email.arizona.edu
