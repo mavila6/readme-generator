@@ -26,7 +26,7 @@ Run 'node index' in the command line to initiate the application. Answer the fol
 
 ### Walkthrough
 
-[Walkthrough Video](https://watch.screencastify.com/v/1Iyvwhi9QduPWgTlh6ce)
+[Walkthrough Video](https://drive.google.com/file/d/1F47rj7XeOavGKrfrV7cIde-MEvIlS1ui/view)
 
 ### Questions
 
